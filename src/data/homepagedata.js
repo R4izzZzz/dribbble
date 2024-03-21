@@ -1,0 +1,51 @@
+export const data = [
+  {
+    id: 1,
+    img: "https://cdn.dribbble.com/userupload/13587069/file/original-6199891ef3030a09ec221e003042c106.png?resize=640x480&vertical=center",
+    name: "Case Johson",
+    likes: 1,
+    views: 20,
+  },
+  {
+    id: 2,
+    img: "https://cdn.dribbble.com/userupload/13582940/file/original-6a82dfd72765cc099999b9fbbcfac634.jpg?resize=640x480&vertical=center",
+    name: "Daniel Radcliffe",
+    likes: 1,
+    views: 20,
+  },
+  {
+    id: 3,
+    img: "https://cdn.dribbble.com/userupload/13563092/file/original-a6fd3b606dd29f4bab4555e1acc8a92d.png?resize=640x480&vertical=center",
+    name: "Lebron Jordan",
+    likes: 1,
+    views: 20,
+  },
+  {
+    id: 4,
+    img: "https://cdn.dribbble.com/userupload/13671032/file/original-3a4e4bf7efe9f0d176b63a75e6254039.jpg?resize=640x480&vertical=center",
+    name: "Steph Bird",
+    likes: 1,
+    views: 20,
+  },
+  {
+    id: 5,
+    img: "https://cdn.dribbble.com/userupload/13212944/file/original-61c8bca870ace60cab137197d6030e67.png?resize=640x480&vertical=center",
+    name: "Lil Zecca",
+    likes: 1,
+    views: 20,
+  },
+  {
+    id: 6,
+    img: "https://cdn.dribbble.com/userupload/13636858/file/original-20774f581932867349d68ae0d6bf389e.png?resize=640x480&vertical=center",
+    name: "What the",
+    likes: 1,
+    views: 20,
+  },
+  {
+    id: 7,
+    img: "https://cdn.dribbble.com/userupload/13601303/file/original-9ccf5c4667f2f6c727552856601cf7c6.png?resize=640x480&vertical=center",
+    name: "Jordan Clarkson",
+    likes: 1,
+    views: 20,
+  },
+];
