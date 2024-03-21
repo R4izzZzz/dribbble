@@ -30,7 +30,7 @@ export const data = [
   {
     id: 5,
     img: "https://cdn.dribbble.com/userupload/13212944/file/original-61c8bca870ace60cab137197d6030e67.png?resize=640x480&vertical=center",
-    name: "Lil Zecca",
+    name: "Lil Thug Zecca",
     likes: "5.69b",
     views: "3.87b",
   },

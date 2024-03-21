@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <Header />
       <div className="flex items-center justify-center mt-24 font-semibold">
-        <div className="bg-yellow-100 p-10 py-2 flex justify-center items-center rounded-full ">
+        <div className="bg-yellow-100 p-10 py-2 flex justify-center items-center rounded-full text-black hover:text-gray-600 transition-all duration-500">
           Over 3 million ready-to-work creatives!
         </div>
       </div>
@@ -24,7 +24,7 @@ export default function Home() {
         around the world.
       </h1>
       <div className="flex items-center justify-center mt-8">
-        <button className="bg-black hover:bg-slate-400 p-4  py-4 text-white rounded-full">
+        <button className="bg-black hover:bg-slate-800 transition-all duration-300 p-4  py-4 text-white rounded-full">
           Get Started
         </button>
       </div>
@@ -37,7 +37,7 @@ export default function Home() {
         })}
       </div>
       <div className="flex items-center justify-center mt-12">
-        <button className="border-2 rounded-full border-black p-4 py-4">
+        <button className="border-2 rounded-full border-black hover:border-gray-600 bg-white hover:bg-slate-100 transition-all duration-300 text-black hover:text-gray-600 p-4 py-4">
           Browse more inspiration
         </button>
       </div>
@@ -52,10 +52,10 @@ export default function Home() {
             creative match.
           </h1>
           <div className=" mt-12">
-            <button className="bg-black p-6 py-4 text-white font-medium rounded-full">
+            <button className="bg-black hover:bg-slate-800 transition-all duration-300 p-6 py-4 text-white font-medium rounded-full">
               Get started now
             </button>
-            <button className="bg-white p-6 py-4 text-black font-medium ml-4 rounded-full">
+            <button className="bg-white p-6 py-4 text-black hover:text-gray-600 transition-all duration-300 font-medium ml-4 rounded-full">
               Learn about hiring
             </button>
           </div>
