@@ -2,14 +2,15 @@ export default function Card({ data }) {
   return (
     <div>
       <img className="rounded-md " src={data.img} />
-      <div className="flex justify-between">
+      <div className="flex justify-between items-center">
         {data.name}
-        <div className="flex gap-4">
+        <div className="flex gap-4 mt-2 items-center">
           <svg
+            xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
-            fill="none"
-            className="icon fill-current shot-tools-icon"
+            fill="currentColor"
+            className="text-gray-500"
             viewBox="0 0 16 16"
           >
             <path
@@ -26,7 +27,7 @@ export default function Card({ data }) {
             width="16"
             height="16"
             fill="none"
-            className="icon fill-current shot-tools-icon"
+            className="text-gray-500"
             viewBox="0 0 16 16"
           >
             <path
@@ -35,6 +36,7 @@ export default function Card({ data }) {
             ></path>
             <path fill="#fff" d="M8 10a2 2 0 100-4 2 2 0 000 4z"></path>
           </svg>
+          {data.views}
         </div>
       </div>
     </div>
